@@ -1,0 +1,238 @@
+body, html {
+  font-family: sans-serif;
+  margin: 0;*/
+
+}
+
+p, a {
+  color: #8E8E8E;
+  line-height: 30px;
+}
+
+h1 {
+  line-height: 55px;
+}
+h2 {
+  margin-top: 0;
+}
+h2.hwhite {
+  width: 130px;
+}
+
+h3 {
+  line-height: 40px;
+  color: #9CC038;
+}
+h4 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+td {
+  padding-left: 10px;
+}
+.btn {
+  background-color: #9CC038;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+
+}
+.container {
+  width: 1170px;
+}
+
+.greenback {
+  background-color: #9CC038;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.whiteback {
+  background-color: white;
+}
+
+div {
+  display: block;
+  border: none;
+
+}
+
+.hgreen {
+  color: #9CC038;
+}
+
+.hwhite {
+  color: #F5F8F1;
+}
+
+.fa, .glyphicon {
+  color: white;
+}
+
+/*menu*/
+
+nav {
+  margin-top: 20px;
+}
+
+/*.triangle {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #95B838;
+  border-left: 50px solid transparent;
+}*/
+/*.triangle2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid #B1D541;
+}*/
+
+
+.logo {
+  font-size: 35px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-left: 10px;
+
+}
+ul.nav li a {
+  width: 100%;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul.nav li a:last child {
+  padding-right: 0;
+}
+
+/*slider*/
+
+div.item img, .back-img {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+/*thmbnails*/
+
+.pastel, footer {
+  background-color: #F6F6F6;
+}
+.thumbnail, .descr {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 90px;
+
+
+}
+.thumbnail::before {
+  content: "";
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #F6F6F6;
+  border-left: 50px solid #B1D541;
+}
+
+.thumbnail::after {
+  content: "";
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #95B838;
+  border-left: 50px solid transparent;
+}
+
+.caption {
+  margin: 30px;
+  display: inline-block;
+
+}
+div.caption h1 {
+  width: 120px;
+}
+
+.btn-right {
+  text-align: right;
+  background-color: transparent;
+
+}
+
+/*descr*/
+/*backimg*/
+/*content*/
+/*content 2*/
+#greenside {
+  padding: 60px;
+}
+.imgback {
+  background-image: url(E:\Work\Макеты\Hypnosis\Img\2-2.jpg);
+  position: relative;;
+  z-index: 2;
+}
+
+.g-black {
+    color: black;
+}
+
+/*recall*/
+
+.recall {
+
+}
+.img-circle {
+  width: 80px;
+  height: 80px;
+}
+
+/*footer*/
+
+#footer-margin {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+#icons {
+  width: 45px;
+  height: 42px;
+}
+
+.social {
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 4px;
+
+}
+a.fa-signal,
+i.fa-phone,
+i.fa-envelope,
+i.fa-home
+ {
+  font-size: 29px;
+  color: #9CC038;
+  font-weight: 600;
