@@ -87,24 +87,16 @@ nav {
   margin-top: 20px;
 }
 
-/*.triangle {
-  position: absolute;
-  right: 50px;
+.triangle-logo {
+  position: relative;;
+  right: 0px;
   bottom: 0;
   width: 0;
   height: 0;
-  border-bottom: 50px solid #95B838;
-  border-left: 50px solid transparent;
-}*/
-/*.triangle2 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 50px solid transparent;
-  border-left: 50px solid #B1D541;
-}*/
+  float: left;
+  border-bottom: 30px solid #95B838;
+  border-left: 30px solid transparent;
+}
 
 
 .logo {
@@ -184,9 +176,7 @@ div.caption h1 {
 
 }
 
-/*descr*/
-/*backimg*/
-/*content*/
+
 /*content 2*/
 #greenside {
   padding: 60px;
